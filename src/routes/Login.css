@@ -10,7 +10,7 @@
 body{
     margin: 0;
     background-color: #0F2B37;    
-    font-family: 'Inter-Regular';    
+    font-family: 'Inter-Regular';   
 }
 .login{
     display: flex;
