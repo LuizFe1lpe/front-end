@@ -1,10 +1,10 @@
 @font-face{
     font-family: 'Inter-Regular';
-    src: local("Inter-Regular"), url(../Fonts/static/Inter-Medium.ttf) format("truetype");
+    src: local("Inter-Regular"), url(../../Fonts/static/Inter-Medium.ttf) format("truetype");
 }
 @font-face{
     font-family: 'Inter-Light';
-    src: local("Inter-Light"), url(../Fonts/static/Inter-Light.ttf) format("truetype");
+    src: local("Inter-Light"), url(../../Fonts/static/Inter-Light.ttf) format("truetype");
 }
 
 body{

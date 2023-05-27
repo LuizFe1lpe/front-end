@@ -1,5 +1,4 @@
 import './MainPage.css';
-import FormClientes from '../componentes/form-clientes';
 
 const MainPage = () => {
     return (

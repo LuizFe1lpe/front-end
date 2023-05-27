@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
 import{createBrowserRouter,RouterProvider} from 'react-router-dom'
-import Login from "./routes/Login";
-import MainPage from "./routes/MainPage"
+import Login from "./pages/login/Login";
+import MainPage from "./pages/mainpage/MainPage"
+import FormClientes from './pages/formCliente/FormClientes';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -13,6 +15,10 @@ const router = createBrowserRouter([
   {
     path:'MainPage',
     element: <MainPage />
+  },
+  {
+    path: "/cadastrar",
+    element: <FormClientes />
   }
 ]);
 
