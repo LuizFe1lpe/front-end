@@ -20,6 +20,20 @@ const MainPage = () => {
                 <div class="workspace-buttons">
                     <button>+Cadastrar <br/> Novo Cliente</button>
                 </div>
+                <table>
+                    <thead>
+                        <td>Nome</td>
+                        <td>Celular</td>
+                        <td>CPF</td>
+                        <td>e-mail</td>
+                    </thead>   
+                    <tbody>
+                        <td>Exemplo</td>
+                        <td>(00)00000-0000</td>
+                        <td>123.456.789-00</td>
+                        <td>nome@gmail.com</td>
+                    </tbody>
+                </table>
             </div>
         </div>
         </>

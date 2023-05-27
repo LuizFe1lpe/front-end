@@ -69,3 +69,12 @@
 .workspace-buttons button:hover, .MenuLateral a:hover{
     border: solid 2px white;
 }
+table, thead, td{
+    width: 700px;
+
+    background-color: white;
+    margin: 0 0 0 10px;
+    border: solid 1px black;
+
+    text-align: center;
+}
