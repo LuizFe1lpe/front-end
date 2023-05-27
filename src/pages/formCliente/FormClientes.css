@@ -83,3 +83,8 @@ form{
 .btncancelar{
     background-color: var(--cor-obsidiana);
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}

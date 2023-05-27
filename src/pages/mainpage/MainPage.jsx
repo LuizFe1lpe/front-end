@@ -1,4 +1,5 @@
 import './MainPage.css';
+import { Link } from 'react-router-dom';
 
 const MainPage = () => {
     return (
@@ -17,7 +18,13 @@ const MainPage = () => {
             </nav>
             <div class="workspace">
                 <div class="workspace-buttons">
-                    <button>+Cadastrar <br/> Novo Cliente</button>
+                    {/** Navegar para a página de cadastro */}
+                    <button>
+                        <Link to="/cadastrar">
+                        +Cadastrar <br/> Novo Cliente
+                        </Link>
+                    </button>
+
                 </div>
                 <table>
                     <thead>
