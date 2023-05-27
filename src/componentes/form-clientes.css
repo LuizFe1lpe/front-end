@@ -1,0 +1,85 @@
+@font-face{
+    font-family: 'Inter';
+    font-style: 'Medium';
+    font-weight: 'Medium';
+    src: local("Inter"), url(../Fonts/static/Inter-Medium.ttf) format("truetype");
+}
+
+:root{
+    --cor-verde:#27BE66;
+    --cor-verde-escruro: #09462A;
+    --cor-cinza-claro: #D7DAD7;
+    --cor-branco: #FFFFFF;
+    --cor-obsidiana: #0F2B37;
+}
+label, input, button{
+    font-family: Inter;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto 0 auto;
+
+    width: 550px;
+    align-self: center;
+    background-color: var(--cor-verde-escruro);
+}
+.crud_cliente{
+    display: flex;
+    flex-direction: row;
+    
+    width: auto;
+    height: auto;
+
+    align-self: center;
+    align-items: center;
+
+    margin: 2vh 0 0 0;
+}
+.crud_column{
+    display: flex;
+    flex-direction: column;
+}
+.crud_column label{
+    color: var(--cor-branco);
+}
+.crud_column input{
+    width: 300px;
+    height: 25px;
+
+    border-style: none;
+    border-radius: 5px;
+}
+.crud_column label, input{
+    margin: 1vh 2vw 1vh 2vw;
+}
+.crud_cliente_buttons{
+    display: flex;
+    flex-direction: row;
+
+    height: auto;
+    width: 36%;
+
+    justify-content: space-around;
+    align-self: center;
+    margin: 2vh 0 2vh 0;
+}
+.crud_cliente_buttons button{
+    height: 50px;
+    width: 90px;
+
+    font-weight: bold;
+
+    border-style: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    color: var(--cor-branco);
+}
+.btnfinalizar{
+    background-color: var(--cor-verde);
+}
+.btncancelar{
+    background-color: var(--cor-obsidiana);
+}

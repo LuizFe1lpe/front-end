@@ -1,0 +1,97 @@
+@font-face{
+    font-family: 'Inter-Regular';
+    src: local("Inter-Regular"), url(../Fonts/static/Inter-Medium.ttf) format("truetype");
+}
+@font-face{
+    font-family: 'Inter-Light';
+    src: local("Inter-Light"), url(../Fonts/static/Inter-Light.ttf) format("truetype");
+}
+
+body{
+    margin: 0;
+    background-color: #0F2B37;    
+    font-family: 'Inter-Regular';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    margin-top: calc(100vh/4);
+}
+.login input{
+    height: 30px;
+    width: 275px;
+
+    border-style: none;
+    text-align: center;
+    font-size: 18px;
+}
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+    color: #27BE66;
+
+    margin: 0;
+}
+.subtitulo{
+    font-size: 16px;
+    font-weight: bold;
+    color: #D7DAD7;
+
+    margin: 0;
+}
+.login-coluna-esquerda{
+    height: 300px;
+    width: 220px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #09462A;
+    
+    justify-content: center;
+    align-items: center;
+}
+.login-coluna-direita{
+    width: 280px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #D7DAD7;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 20px;
+}
+.login label{
+    font-family: 'Inter-Light';
+    align-self: flex-start;
+}
+.login-coluna-direita a{
+    color: #0F2B37;
+}
+.login-titulo{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;    
+    align-self: flex-start;
+}
+.login button{
+    height: 30px;
+    width: 150px;
+
+    color: #FFFFFF;
+    font-family: 'Inter-Light';
+    font-size: 18px;
+
+    border-style: none;
+    background-color: #09462A;
+    cursor: pointer;
+}
+.login button:hover{
+    background-color: #27BE66;
+}
