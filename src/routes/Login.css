@@ -10,17 +10,13 @@
 body{
     margin: 0;
     background-color: #0F2B37;    
-    font-family: 'Inter-Regular';
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Inter-Regular';    
 }
 .login{
     display: flex;
     flex-direction: row;
     margin-top: calc(100vh/4);
+    margin-left: 33%;
 }
 .login input{
     height: 30px;

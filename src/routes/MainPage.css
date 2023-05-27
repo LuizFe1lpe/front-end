@@ -1,0 +1,36 @@
+.MenuLateral{
+    height: 100vh;
+    width: 15%;
+    background-color: #09462A;
+}
+.MenuLinks{
+    display: flex;
+    flex-direction: column;
+}
+.MenuLinks a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    margin: 4px 0 4px 0;
+}
+.login-coluna-esquerda{
+    width: auto;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #09462A;
+}
+.titulo{
+    font-size: 40px;
+    font-weight: bold;
+    color: #27BE66;
+
+    margin: 0;
+}
+.subtitulo{
+    font-size: 16px;
+    font-weight: bold;
+    color: #D7DAD7;
+
+    margin: 0;
+}

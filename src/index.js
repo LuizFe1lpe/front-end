@@ -4,11 +4,15 @@ import reportWebVitals from './reportWebVitals';
 
 import{createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Login from "./routes/Login";
-
+import MainPage from "./routes/MainPage"
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Login />
+  },
+  {
+    path:'MainPage',
+    element: <MainPage />
   }
 ]);
 
