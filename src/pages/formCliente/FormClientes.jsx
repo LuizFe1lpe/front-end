@@ -1,6 +1,7 @@
 import React from 'react';
 import './FormClientes.css';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default class FormClientes extends React.Component {
 
@@ -51,6 +52,8 @@ export default class FormClientes extends React.Component {
         console.log(`Deu ruim aqui`);
         console.log(erro);
       });
+
+    window.location.replace('http://localhost:3000/MainPAge');
   }
 
   render() {
@@ -72,7 +75,11 @@ export default class FormClientes extends React.Component {
         </div>
             <div className="crud_cliente_buttons">
               <button type='button' className="btnfinalizar" onClick={() => this.sendData()}>Finalizar Cadastro</button>
-              <button className="btncancelar">Cancelar</button>
+              <button className="btncancelar">
+                <Link to="/mainpage">
+                  Cancelar
+                </Link>
+              </button>
           </div>
       </form>
     );
